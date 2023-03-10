@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+}
+
+#membersContainer {
+    max-width: 900px;
+    padding: 30px 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    width: calc(100% / 3 - (15px / 3 * 2));
+    text-align: center;
+}
+
+.name, .role, .image {
+    margin-bottom: 0.5em;
+}
+
+.image {
+    width: 100%;
+}
